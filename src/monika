@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="reveal.js-2.6.2/css/reveal.min.css">
+		<link rel="stylesheet" href="reveal.js-2.6.2/css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="reveal.js-2.6.2/lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'reveal.js-2.6.2/css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="reveal.js-2.6.2/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<!--
+				START MATHIAS
+				
+				Tipp: alles zwischen diesen START und dem folgenden Ende kopieren; Inhalte austauschen und das war's!
+				-->
+				<section>
+					<section>
+						<h2>Was ist Gamification, wie funktioniert es </h2>
+						<p>
+							und in welchen Produkten findet man die Anwendung?
+						</p>
+						<p>
+							Gehe <a href="#" class="navigate-down">weiter</a> zur Antwort.
+						</p>
+						
+					</section>
+					<section>
+						<h2>Abgrenzung Gamification</h2>
+						<p>
+						Auch Spielifizierung genannt, bezeichnet die Verwendung von spieltypischen Mustern im
+						nicht-gaming Kontext. Sie hat das Ziel, das Verhalten von Menschen motivationssteigernd
+						zu beeinflussen, Lernen spannender zu gestalten und Probleme spielerisch zu lösen.
+						Weiters wird mit der Integration von Spielelementen bezweckt, dass sich Nutzer länger
+						oder mehr mit dem Produkt zu beschäftigen, als sie es ohne die Spielelemente gemacht hätten.
+						</p>
+						<h2> Typische Spielelemente </h2>
+						<p>
+						<ul> <li> Sichtbarer Status – Fortschrittsanzeige: Zentrales Element der Motivation, um
+						Transparent bei der Erfüllung einer Teil- oder Gesamtaufgabe zu schaffen.
+						<li> Rangliste: Es entsteht ein Gefühl des Wettbewerbs, bei dem die Nutzer auch den Status
+						und Fortschritt anderer sehen.
+						<li> Quest: Aufgabe wird mit einem Zeitlimit hinterlegt, in dem diese absolviert werden muss.
+						<li> Transparenz der Wertigkeit des Resultats: Nutzer wissen, welchen Wert ihr Ergebnis in
+						Erfahrungspunkten, Preisen oder anderen Belohnungen hat.
+						<li> Community Collaboration (Gruppenarbeit): Aufgaben werden von den Anwendern in gemeinsamer Arbeit gelöst.
+						</p>
+						<h2> Produkte </h2>
+						<p>
+						<ul> <li> Duolingo (Sprache lernen)
+						<li> Deloitte Leadership Academy (Lernplattform)
+						<li> SAP Community Network (Netzwerk)
+						<li> T-Mobile Website (Sales & Support Center)
+						<li> Bank Austria Bankville (Banking)
+						<li> Air Canada (Kundenbindungsprogramm)
+						<li> LinkedIn (Social Network)
+					</section>
+				</section>
+				<!-- 
+				ENDE MATHIAS
+				-->			
+
+			</div>
+
+		</div>
+
+		<script src="reveal.js-2.6.2/lib/js/head.min.js"></script>
+		<script src="reveal.js-2.6.2/js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'reveal.js-2.6.2/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'reveal.js-2.6.2/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal.js-2.6.2/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal.js-2.6.2/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'reveal.js-2.6.2/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'reveal.js-2.6.2/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
