@@ -1,12 +1,12 @@
 <!--
-				START MATHIAS
+				START Julia
 				
 				-->
 				<section>
 					<section>
-						<h2>Ist eine verschlüsselte Verbindung</h2>
+						<h2>Wer überwacht die Einhaltung der Datenschutzgesetze?</h2>
 						<p>
-							in einem unverschlüsselten WLAN sicher oder unsicher?
+							
 						</p>
 						<p>
 							Gehe <a href="#" class="navigate-down">weiter</a> zur Antwort.
@@ -14,20 +14,19 @@
 						
 					</section>
 					<section>
-						<h2>Sicher!</h2>
+						<h2>Datenschutzbeauftragter!</h2>
 						<p>
-							Ziel der asymmetrischen Verschlüsselung ist es, eine sichere Verbindung über einen 
-							unsicheren Kanal herzustellen. D.h. solange der Browser HTTPS verwendet und keine Warnung wegen
-							möglicherweise gefälschter Zertifikate erscheint, passt alles.
+							Der Bundesbeauftragte für den Datenschutz, für den Bereich der Bundesbehörden. 
+							Der Landesbeauftragte für den Bereich von Landesbehörden.
+							besondere Datenschutzbeauftragte bei Körperschaften, Anstalten und Stiftungen des öffentlichen Rechts
+						
 						</p>
 						<p>
-							Über die unsichere Verbidnung wird letzlich nur der öffentliche Schlüssel des
-							Empfängers übertragen. Sobald mit diesem verschlüsselt wurde, kann ohnehin niemand mehr
-							mitlesen.
+	
 							
 						</p>
 					</section>
 				</section>
 				<!-- 
-				ENDE MATHIAS
+				ENDE Julia
 				-->			
