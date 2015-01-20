@@ -57,7 +57,7 @@
 				-->
 				<section>
 					<section>
-						<h2>Was ist NFS und wie kann die Datenübertragung schematisch dargestellt werden?</h2>
+						<h2>Was ist NFS?</h2>
 						<p>
 						
 						</p>
@@ -75,20 +75,7 @@ Die Entsprechung zu NFS heißt unter Windows- und OS/2-Umgebungen Server Message
 NFS arbeitet auf dem Netzwerkprotokoll IP ursprünglich zusammen mit dem zustandslosen UDP. Mittlerweile gibt es aber auch NFS über TCP. NFSv4 arbeitet mit TCP und benötigt nur noch einen Port, was den Betrieb durch Firewalls erleichtert. NFSv4 wurde maßgeblich durch die IETF entwickelt, nachdem Sun die Entwicklung abgegeben hatte.
 .
 						</p>
-						<p>
-							Schematischer Ablauf der Datenübertragung
-1.	Client kontaktiert Portmapper auf Port 111 und fragt nach dem Port des Mount-Daemons (mountd)
-2.	Portmapper gibt Portnummer für mountd heraus. Typischerweise ist das 694.
-3.	Client kontaktiert mountd und fragt nach einem Filehandle für /directory, des vom Clienten zu mountenden Verzeichnisses des Servers.
-4.	mountd gibt ein Filehandle 0 als root-Filehandle für das zu mountende Verzeichnis des Servers zurück
-5.	Client kontaktiert Portmapper und fragt nach dem Port für NFS (nfsd) Typischerweise ist das 2049.
-6.	Portmapper gibt Portnummer für nfsd heraus
-7.	Client führt LOOKUP-Prozedur aus mit den Parametern Filehandle 0 und dem Dateinamen (test)
-8.	nfsd gibt Filehandle 1 für Datei (test) heraus
-9.	Client führt READ-Prozedur aus mit dem Parameter Filehandle 1
-10.	nfsd gibt Inhalt der Datei (test) zurück (Daten)
-.
-							
+												
 						</p>
 					</section>
 				</section>
